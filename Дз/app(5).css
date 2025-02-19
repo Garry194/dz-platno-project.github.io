@@ -1,0 +1,120 @@
+body{
+    background-image: url('i%20(2).webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.white-text{
+    color: aliceblue;
+}
+section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #71b2c9;
+            border-radius: 100px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+section1 {
+            margin: 20px;
+            padding: 20px;
+            background-color: #76a7cf;
+            border-radius: 100px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+.black-text{
+    color: #000000;
+}
+.center {
+    display: flex;
+    justify-content: flex;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+/* Скрываем чекбокс */
+        #toggle {
+            display: none;
+          
+        }
+
+        /* Оформление кнопки */
+        label {
+            display: inline-block;
+            text-align: center;
+            font-size: 30px;
+            padding: 30px 164.8px;
+            background-color: #77add9;
+            color: white;
+            border: none;
+            border-radius: 100px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-bottom: 20px;
+            transition-duration: 0.15s;
+            transition-property: transform;
+        }
+
+        /* Эффект при наведении */
+        label:hover {
+            background-color: #68a5d5;
+             transform: translateY(2px);
+}
+.label{
+  transition-timing-function: linear;
+        }
+
+        /* Блок с текстом (по умолчанию скрыт) */
+        #text {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.5;
+            margin-bottom: 20px;
+
+            /* Плавное появление */
+            opacity: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: opacity 0.5s ease, max-height 0.5s ease;
+        }
+
+        /* Показываем текст плавно, если чекбокс активен */
+        #toggle:checked ~ #text {
+            opacity: 1;
+            max-height: 1000px; /* Достаточно большое значение */
+        }
+.bold0 {
+            font-weight: bold;
+    display: flex;
+    justify-content: center;
+            color: white;
+            margin-top: 80px;          
+}
+.button6 {
+    align-content: center;
+    display: inline-block;
+    padding: 30px 190px;
+    background-color: #77add9;
+    color: white;
+    font-size: 30px;
+     border: 0;
+     border-radius: 100px;
+     cursor: pointer;
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    transition-duration: 0.15s;
+    transition-property: transform;
+}
+        .button3:hover {
+    background-color:#68a5d5;
+            transform: translateY(2px);
+    }

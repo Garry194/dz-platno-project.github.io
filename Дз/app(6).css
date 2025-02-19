@@ -1,0 +1,21 @@
+.button6 {
+    align-content: center;
+    display: inline-block;
+    padding: 30px 190px;
+    background-color: #77add9;
+    color: white;
+    font-size: 30px;
+     border: 0;
+     border-radius: 100px;
+     cursor: pointer;
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    transition-duration: 0.15s;
+    transition-property: transform;
+}
+        .button3:hover {
+    background-color:#68a5d5;
+            transform: translateY(2px);
+    }
